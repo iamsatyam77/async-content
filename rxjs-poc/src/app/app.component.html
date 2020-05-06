@@ -1,0 +1,8 @@
+<div *ngIf="message">
+  {{message}}
+</div>
+<button type="button" (click)="getMessageOfSubject()">Get messageOfSubject</button>
+<button type="button" (click)="getMessageOfBehaviorSubject()">Get messageOfBehaviorSubject</button>
+<button type="button" (click)="getMessageOfReplaySubject()">Get messageOfReplaySubject</button>
+<button type="button" (click)="getMessageOfObservable()">Get Observable</button>
+<app-home></app-home>
